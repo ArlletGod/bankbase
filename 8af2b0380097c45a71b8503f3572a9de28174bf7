@@ -1,0 +1,11 @@
+[33mcommit 8af2b0380097c45a71b8503f3572a9de28174bf7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mpersonClassBranch[m[33m)[m
+Author: Maxim Sucicov <arlletgod@gmail.com>
+Date:   Tue May 26 23:04:33 2020 +0300
+
+    addClassPerson
+
+[33mcommit be6ee66f5ea03150a66c4ce3a53b14564a131e6e[m[33m ([m[1;33mtag: ver1[m[33m, [m[1;31marllet/master[m[33m)[m
+Author: Maxim Sucicov <arlletgod@gmail.com>
+Date:   Tue May 26 22:50:17 2020 +0300
+
+    initial comit of the project
