@@ -11,10 +11,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MainController {
 
-@GetMapping("/")
-public String index( Model model) {
+    @GetMapping(value = "/")
+    public String index(Model model) {
 
-    return"index";
-}
-
+        return "index";
+    }
 }

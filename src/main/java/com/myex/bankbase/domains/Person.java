@@ -1,7 +1,13 @@
 package com.myex.bankbase.domains;
 
+import javax.persistence.*;
+
+@Entity
+@Table
 public class Person  {
-    private int id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
     private String name;
     private String sureName;
 
@@ -13,7 +19,7 @@ public class Person  {
         this.sureName = sureName;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
